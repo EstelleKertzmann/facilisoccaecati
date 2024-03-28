@@ -1,0 +1,59 @@
+{
+  "name": "facilisoccaecati",
+  "version": "1.0.0",
+  "description": "TypeScript execution environment and REPL for node",
+  "main": "dist/index.js",
+  "bin": {
+    "ts-node": "dist/bin.js",
+    "_ts-node": "dist/_bin.js"
+  },
+  "files": [
+    "dist/",
+    "typings.js",
+    "register.js",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EstelleKertzmann/facilisoccaecati.git"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "runtime",
+    "environment",
+    "veritatis",
+    "compiler"
+  ],
+  "author": "ZaneLehner",
+  "license": "MIT",
+  "homepage": "https://github.com/EstelleKertzmann/facilisoccaecati.git",
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "istanbul": "^0.4.0",
+    "mocha": "^3.0.0",
+    "ntypescript": "^1.201507091536.1",
+    "proxyquire": "^1.7.2",
+    "rimraf": "^2.5.4",
+    "semver": "^5.1.0",
+    "tslint": "^5.0.0",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.4.1",
+    "typings": "^2.0.0"
+  },
+  "dependencies": {
+    "arrify": "^1.0.0",
+    "chalk": "^2.0.0",
+    "diff": "^3.1.0",
+    "make-error": "^1.1.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "source-map-support": "^0.4.0",
+    "tsconfig": "^6.0.0",
+    "v8flags": "^2.0.11",
+    "yn": "^2.0.0"
+  }
+}
